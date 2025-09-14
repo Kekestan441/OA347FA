@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./Components/.App.css";
 
 const PRODUCTS = [
   { id: 1, title: "Сердце", desc: "24 штуки в коробке в виде сердца. Ассорти из 6 вкусов", price: 2800, img: "/images/p1.jpg" },
