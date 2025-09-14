@@ -46,7 +46,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* Логотип и меню */}
+
       <div className="menu">
         <div className="logo">macaron shop</div>
         <ul>
@@ -59,15 +59,15 @@ export default function App() {
         </ul>
       </div>
 
-      {/* Навигация */}
+
       <div className="breadcrumbs">
         Главная &gt; Каталог &gt; <b>Готовые наборы</b>
       </div>
 
-      {/* Заголовок */}
+
       <h1 className="title">Готовые наборы</h1>
 
-      {/* Категории */}
+
       <div className="categories">
         {["Свадьба", "Девичник", "День рождения", "8 марта", "23 февраля", "Новый год", "День учителя", "День тренера", "1 сентября", "Пасха", "Без печати"].map(
           (c, i) => (
@@ -76,14 +76,14 @@ export default function App() {
         )}
       </div>
 
-      {/* Сетка продуктов */}
+
       <div className="grid">
         {PRODUCTS.slice(0, visible).map((p) => (
           <ProductCard key={p.id} product={p} />
         ))}
       </div>
 
-      {/* Показать ещё */}
+
       {visible < PRODUCTS.length && (
         <div className="more">
           <button onClick={() => setVisible((v) => v + 3)}>Показать ещё</button>
