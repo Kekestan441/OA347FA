@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <div className="page">
-      {/* Верхняя панель */}
+ 
       <div className="topbar">
         <div className="links">
           <a>Гарантия свежести</a>
